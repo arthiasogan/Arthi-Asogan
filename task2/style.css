@@ -1,0 +1,27 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 80px);
+  gap: 6px;
+  justify-content: center;
+  margin: 20px auto;
+}
+
+.cell {
+  width: 80px;
+  height: 80px;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+p:hover{
+    color: blue;
+}
