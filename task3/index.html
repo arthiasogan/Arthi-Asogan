@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+   
+
+  <h2>Image Upload Form</h2>
+
+  <form id="imageForm">
+    <input type="text" id="url" placeholder="Image URL">
+    <input type="text" id="title" placeholder="Title">
+
+    <select id="category">
+      <option value="">Select Category</option>
+      <option value="Nature">Nature</option>
+      <option value="Animals">Animals</option>
+      <option value="Technology">Technology</option>
+    </select>
+
+    <button type="submit">Add Image</button>
+  </form>
+
+  <h3>Filter by Category</h3>
+  <button onclick="filterImages('All')">All</button>
+  <button onclick="filterImages('Nature')">Nature</button>
+  <button onclick="filterImages('Animals')">Animals</button>
+  <button onclick="filterImages('Technology')">Technology</button>
+
+  <div class="gallery" id="gallery"></div>
+
+  <script src="script.js"></script>
+  </center>
+</body>
+</html>
+
+
+    
